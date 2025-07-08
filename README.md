@@ -1,29 +1,27 @@
 🔐 Login & Registration App with Dashboard
 
 🛠 Tech Stack
-
-Frontend :-
-
-React.js (Vite)
-React Router DOM
-CSS3
-LocalStorage
+🖥️ Frontend:
+* React.js (Vite)
+* React Router DOM
+* CSS3
+* LocalStorage
 
 Backend:-
 
-Node.js
-Express.js
-MongoDB
-JWT for Auth
-
-bcrypt for password hashing
+* Node.js
+* Express.js
+* MongoDB
+* JWT for Auth
+* bcrypt for password hashing
 
 🚀 Getting Started
 1. Clone the repo
 
 git clone https://github.com/parasmittal05/login-register.git
-
 cd login-register
+
+
 2. Install Dependencies
 
 
@@ -43,9 +41,9 @@ npm run server
 Create a .env file in the /server directory:
 
 
-MONGODB_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret
-PORT=5001
+* MONGODB_URI=your_mongodb_connection_string
+* JWT_SECRET=your_jwt_secret
+* PORT=5001
 
 
 📡 API Routes
