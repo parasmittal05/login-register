@@ -27,14 +27,14 @@ Backend:-
 
 # Frontend
 
-npm install
-npm run dev
+* npm install
+* npm run dev
 
 # Backend
 
-cd server
-npm install
-npm run server
+* cd server
+* npm install
+* npm run server
 
 3. Environment Variables
 
@@ -47,16 +47,16 @@ Create a .env file in the /server directory:
 
 
 📡 API Routes
-Method	Endpoint	Description
-POST	/api/auth/register	Register a new user
-POST	/api/auth/login	Login existing user
+* Method	Endpoint	Description
+* POST	/api/auth/register	Register a new user
+* POST	/api/auth/login	Login existing user
 
 ✨ Features
 
 🔐 Authentication
-JWT token storage
+* JWT token storage
 
-Bcrypt password hashing
+* Bcrypt password hashing
 
 "Remember Me" checkbox
 
