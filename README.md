@@ -18,8 +18,8 @@ Backend:-
 🚀 Getting Started
 1. Clone the repo
 
-git clone https://github.com/parasmittal05/login-register.git
-cd login-register
+* git clone https://github.com/parasmittal05/login-register.git
+* cd login-register
 
 
 2. Install Dependencies
