@@ -1,0 +1,139 @@
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #4ca1af, #2c3e50);
+  padding: 20px;
+}
+
+.auth-card {
+  width: 100%;
+  max-width: 400px;
+  background-color: #1e2a3a;
+  border-radius: 8px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  text-align: center;
+}
+
+.auth-title {
+  color: #5ee7df;
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.avatar-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #2a3950;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #5ee7df;
+}
+
+.input-group {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.input-icon {
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #a0a0a0;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 15px 15px 15px 45px;
+  border-radius: 5px;
+  border: none;
+  background-color: #2a3950;
+  color: white;
+  font-size: 16px;
+}
+
+.input-group input::placeholder {
+  color: #a0a0a0;
+}
+
+.form-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  padding: 0 4px;
+}
+
+.remember-me {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: white;
+}
+
+.forgot-password-link {
+  color: #5ee7df;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.forgot-password-link:hover {
+  text-decoration: underline;
+}
+
+.auth-button {
+  width: 100%;
+  padding: 15px;
+  background-color: #5ee7df;
+  color: #1e2a3a;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.auth-button:hover {
+  background-color: #4cd3c9;
+}
+
+.auth-button:disabled {
+  background-color: #a0a0a0;
+  cursor: not-allowed;
+}
+
+.error-message {
+  color: #ff6b6b;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.auth-footer {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #a0a0a0;
+}
+
+.auth-footer a {
+  color: #5ee7df;
+  text-decoration: none;
+}
+
+.auth-footer a:hover {
+  text-decoration: underline;
+}
